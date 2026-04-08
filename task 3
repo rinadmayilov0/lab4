@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>task 3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="kart">
+        <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-13-blue-select-2021?wid=800&fmt=png-alpha" alt="iPhone 13">
+        <h3>iPhone 13</h3>
+        <p class="qiymet">1200 AZN</p>
+    </div>
+
+</body>
+</html>
+
+CSS kodu
+
+body {
+    background-color: #eeeeee; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.kart {
+    background-color: white;
+    width: 250px;
+    padding: 20px;
+    border-radius: 10px; 
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.kart img {
+    width: 100%;
+}
+.qiymet {
+    color: green;
+    font-weight: bold;
+}

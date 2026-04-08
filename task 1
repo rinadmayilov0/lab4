@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1</title>
+    <link rel="stylesheet" href="style.css"
+</head>
+<body>
+<h1 Task 1 - Background</h1>
+    
+</body>
+</html>
+
+css kodu 
+body {
+    background-color: yellow;
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
